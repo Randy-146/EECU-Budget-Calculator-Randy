@@ -26,7 +26,7 @@ body {
 nav {
     background-color: var(--blue-color);
     display: flex;
-    height: 5vh;
+    height: 10vh;
 }
 
 #hero {
@@ -49,7 +49,6 @@ nav {
 a {
     text-decoration: none;
     border-radius: 60px;
-    background-color: #01A640;
     color: white;
     height: 12vh;
     width: 25vw;
@@ -59,6 +58,7 @@ a {
     border: #01A640;
     text-align: center;
     line-height: 12vh;
+    background-color: #01A640;
 }
 
 
@@ -155,4 +155,9 @@ footer {
 }
 #userExpenses input{
     width:80%;
+}
+
+#income-1 {
+    background-color: transparent;
+    margin-left: -14vh;
 }
